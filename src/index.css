@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: cadetblue !important; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.passwordContainer{
+  position: relative;
+}
+.showPassword {
+  position: absolute;
+  top: 25%;
+  right: 2%;
+  height: 50%;
+  font-size:20px;
+}
+
+.active{
+  font-weight: bold;
+  color: tomato !important;
+  
+}
+
+.floatt {
+  float: left;
+}
+.card{
+  width: 17rem !important;
+  height: 31rem;
+  background-color: rgba(255, 255, 255, 0.651) !important;
+
+}
+.card:hover{
+  opacity: 0.8;
+
+}
+.cardDetails{
+  width: 100% !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative;
+  text-align: center;
+
+}
+.cardDetails img{
+  width: 40% !important;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.cardDetails .card-body{
+  width: 40% !important;
+  display: inline-block !important;
+
+}
+h4{
+  color: tomato !important;
+}
+h5{
+  color: rgba(0, 0, 255, 0.692) !important;
+}
+h6{
+  color: rgb(99, 99, 99) !important;
+}
+.card .progress {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  background-color: #91bdff !important;
+}
+.overview{
+  font-size:13px;
+}
+.Favorite {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 10px;
+  background-color: rgb(134, 134, 134);
+  backdrop-filter: blur(80px);
+  cursor: pointer;
+}
